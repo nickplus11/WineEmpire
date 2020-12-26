@@ -1,0 +1,59 @@
+html {
+    background: #D7BBA8;
+}
+
+a, p {
+    color: black;
+}
+
+
+footer {
+    border-top: solid black 2px;
+}
+
+#empty {
+    width: 70%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid black 2px;
+    padding-bottom: 5px;
+}
+
+.go_contacts, .go_home {
+    text-align: center;
+    padding: 5px;
+    width: 150px;
+}
+
+header a:hover {
+    text-decoration: none;
+    outline: solid #272727 2px;
+}
+
+ul li{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin: 20px 20px 30px;
+}
+
+.desc{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li:hover{
+    -webkit-box-shadow: 0px 0px 10px 5px #FCFCFC;
+}
+
+.pict img{
+    width: 300px;
+    height: auto;
+}

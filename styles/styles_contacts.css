@@ -1,0 +1,37 @@
+html {
+    background: #D7BBA8;
+}
+
+a, p {
+    color: black;
+}
+
+iframe {
+    border: solid #272727 2px;
+}
+
+#empty {
+    width: 70%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid black 2px;
+    padding-bottom: 5px;
+}
+
+.go_catalog, .go_home {
+    text-align: center;
+    padding: 5px;
+    width: 150px;
+}
+
+header a:hover {
+    text-decoration: none;
+    outline: solid #272727 2px;
+}
+
+footer {
+    border-top: solid black 2px;
+}

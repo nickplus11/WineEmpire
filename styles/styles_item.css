@@ -1,0 +1,56 @@
+html {
+    background: #D7BBA8;
+}
+
+a, p {
+    color: black;
+}
+
+footer {
+    border-top: solid black 2px;
+}
+
+#empty {
+    width: 50%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid black 2px;
+    padding-bottom: 5px;
+}
+
+.go_contacts, .go_catalog, .go_home {
+    text-align: center;
+    padding: 5px;
+    width: 150px;
+}
+
+header a:hover {
+    text-decoration: none;
+    outline: solid #272727 2px;
+}
+
+#body_container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#name, #price_block {
+    font-weight: bold;
+}
+
+.right img {
+    max-width: 300px;
+    border: solid black 2px;
+}
+
